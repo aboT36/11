@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  direction: rtl;
+  padding: 1rem;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+.row {
+  margin: 0.5rem 0;
+}
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+input, select {
+  width: 100%;
+  padding: 0.5rem;
+}
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+.result {
+  background: #f0f0f0;
+  padding: 1rem;
+  margin-top: 1rem;
+}
